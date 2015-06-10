@@ -1,8 +1,25 @@
 {
+	"name": "bimedia-fr/laravel-proxy-config",
+    "type": "library",
+    "description": "Configuration proxy for Laravel 4.",
+    "keywords": ["laravel", "L4", "Proxy", "Laravel 4"],
+    "homepage": "https://github.com/bimedia-fr/laravel-proxy-config.git",
+    
     "authors": [
         {
             "name": "Sébastien Boucontet",
             "role": "Developer"
         }
-    ]
+    ],
+    
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Proxy": "src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
